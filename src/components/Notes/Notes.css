@@ -1,0 +1,32 @@
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .note-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .note-item.pinned {
+    background-color: #ffeaa7;
+  }
+  
+  .note-actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .note-actions button {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .note-actions button:hover {
+    background-color: #dfe6e9;
+  }
+  

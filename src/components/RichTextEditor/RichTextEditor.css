@@ -1,0 +1,40 @@
+.rich-text-editor {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .toolbar button,
+  .toolbar select {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .toolbar button:hover,
+  .toolbar select:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .editor {
+    min-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+    overflow-y: auto;
+  }
+  
+  .editor:focus {
+    outline: none;
+  }
+  
